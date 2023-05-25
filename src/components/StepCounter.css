@@ -1,0 +1,43 @@
+/* StepCounter.css */
+
+.StepCounter {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align the content */
+}
+
+.StepCounter h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.StepCounter .count {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.StepCounter .counter-buttons {
+  display: flex;
+  justify-content: center; /* Center align the buttons */
+  gap: 10px; /* Add a gap of 10px between the buttons */
+}
+
+.StepCounter button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.StepCounter button:hover {
+  background-color: #00bfbf;
+}

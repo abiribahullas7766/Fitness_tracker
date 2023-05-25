@@ -1,0 +1,68 @@
+.ActivityLog {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ActivityLog h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #008080;
+  }
+  
+  .ActivityLog form {
+    margin-bottom: 10px;
+  }
+  
+  .ActivityLog label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .ActivityLog input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .ActivityLog button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ActivityLog button:hover {
+    background-color: #00a8a8;
+  }
+  
+  .ActivityLog ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ActivityLog li {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .ActivityLog .activity {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ActivityLog .activity-date {
+    font-weight: bold;
+    margin-right: 10px;
+  }
